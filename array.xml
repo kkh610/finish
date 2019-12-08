@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="resId">
+        <item>@drawable/array_xml_image1</item>
+        <item>@drawable/array_xml_image2</item>
+        <item>@drawable/array_xml_image3</item>
+        <item>@drawable/array_xml_image4</item>
+
+    </integer-array>
+
+    <string-array name="title">
+        <item>모든 순간이 너였다.</item>
+        <item>아무것도 아닌 지금은 없다</item>
+        <item>말그릇</item>
+        <item>어른아이로 산다는 것</item>
+    </string-array>
+
+    <string-array name="content">
+        <item>하태완</item>
+        <item>글배우</item>
+        <item>김윤나</item>
+        <item>지민석</item>
+    </string-array>
+
+
+</resources>

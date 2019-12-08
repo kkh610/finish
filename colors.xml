@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="a">#F4F2ED</color>
+    <color name="aa">#8FF4F2ED</color>
+    <color name="b">#A36460</color>
+    <color name="d">#435255</color>
+    <color name="e">#597485</color>
+    <color name="f">#B6CCD4</color>
+    <color name="g">#B6CCD4</color>
+    <color name="colorControlHighlight">#B6CCD4</color>
+    <drawable name="black">#000000</drawable>
+    <drawable name="white">#ffffff</drawable>
+    <drawable name="press">#FFE400</drawable>
+    <drawable name="focus">#FF5E00</drawable>
+</resources>

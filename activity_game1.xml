@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/a"
+    android:orientation="vertical"
+    tools:context=".Game1Activity">
+
+    <TextView
+        android:id="@+id/gameName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/f"
+        android:gravity="center"
+        android:text="책 제목 나열하기"
+        android:textColor="@color/a"
+        android:textSize="50dp"
+        app:fontFamily="@font/mm" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/questionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            app:fontFamily="@font/mm"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/scoreText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            app:fontFamily="@font/mm"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="match_parent"
+        android:layout_height="154dp"
+        android:text="Button"
+        android:visibility="invisible"
+        app:fontFamily="@font/mm" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/answerText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="정답을 적어주세요."
+                android:inputType="textPersonName"
+                android:textSize="25dp"
+                app:fontFamily="@font/mm"/>
+
+            <Button
+                android:id="@+id/answerButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/round2"
+                android:text="정답"
+                android:textColor="@color/a"
+                android:textSize="25dp"
+                app:fontFamily="@font/mm" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="match_parent"
+        android:layout_height="138dp"
+        android:text="Button"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:background="@drawable/round2"
+            android:onClick="game1Start"
+            android:text="시작하기"
+            android:textColor="@color/a"
+            android:textSize="25dp"
+            app:fontFamily="@font/mm" />
+
+        <Button
+            android:id="@+id/hintButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:background="@drawable/round2"
+            android:text="정답보기"
+            android:textColor="@color/a"
+            android:textSize="25dp"
+            app:fontFamily="@font/mm" />
+
+        <Button
+            android:id="@+id/Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:background="@drawable/round2"
+            android:text="메인으로"
+            android:textColor="@color/a"
+            android:textSize="25dp"
+            app:fontFamily="@font/mm"
+            android:onClick="ma1"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

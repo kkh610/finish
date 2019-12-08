@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/aa"
+    android:baselineAligned="true"
+    android:orientation="vertical"
+    tools:context=".MyPageActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/e"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:textAlignment="center">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/e"
+            android:text="북다방"
+            android:textColor="@color/a"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/mm" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:background="@drawable/border2"
+        android:baselineAligned="true"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/nametext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+
+            android:text="TextView"
+            android:textColor="@color/b"
+            android:textSize="30sp"
+            app:fontFamily="@font/mm" />
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="581dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/myreport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border2"
+                android:onClick="mylist"
+                android:padding="10sp"
+                android:text="나의 독후감"
+                android:textColor="@color/b"
+                android:textSize="30sp"
+                app:fontFamily="@font/mm" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border2"
+                android:onClick="bookMarkOnClick"
+                android:padding="10sp"
+                android:text="내가 좋아요한 책"
+                android:textColor="@color/b"
+                android:textSize="30sp"
+                app:fontFamily="@font/mm" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border2"
+                android:padding="10sp"
+                android:text="최근 본 책"
+                android:textColor="@color/b"
+                android:textSize="30sp"
+                app:fontFamily="@font/mm" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border2"
+                android:padding="10sp"
+                android:text="공지사항"
+                android:textColor="@color/b"
+                android:textSize="30sp"
+                app:fontFamily="@font/mm" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border2"
+                android:padding="10sp"
+                android:text="고객센터/도움말"
+                android:textColor="@color/b"
+                android:textSize="30sp"
+                app:fontFamily="@font/mm" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border2"
+                android:padding="10sp"
+                android:text="서비스 이용약관"
+                android:textColor="@color/b"
+                android:textSize="30sp"
+                app:fontFamily="@font/mm" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border2"
+                android:padding="10sp"
+                android:text="개인정보 수집 및 이용"
+                android:textColor="@color/b"
+                android:textSize="30sp"
+                app:fontFamily="@font/mm" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border2"
+                android:padding="10sp"
+                android:text="로그아웃"
+                android:textColor="@color/b"
+                android:textSize="30sp"
+                app:fontFamily="@font/mm" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/border2"
+                android:onClick="bye"
+                android:padding="10sp"
+                android:text="회원 탈퇴"
+                android:textColor="@color/b"
+                android:textSize="30sp"
+                app:fontFamily="@font/mm" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
